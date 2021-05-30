@@ -1,0 +1,121 @@
+/*input{
+
+    width: 400px;
+    height: 25px;
+border-radius: 10px;
+border: 1px solid blue;
+background-color: rgba(128, 128, 128, 0.226);
+position: relative;
+}
+i{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+input:focus{
+    background-color: white;
+} */
+body{
+    background-color: #dfe3ee6b;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div{
+    text-align: center;
+    width: 400px;
+    height: 360px;
+float: right;
+clear: right;
+background-color: #ffffff;
+margin-right: 300px;
+}
+input{
+    width: 366px;
+    height: 45px;
+border-radius: 7px;
+border: 1px solid rgba(0, 0, 0, 0.068);
+background-color: #ffffff;
+}
+.text{
+    margin-top: 15px;
+}
+.password{
+    margin-top: 10px;
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.233);
+}
+input:focus{
+    border-radius: 7px;
+border: 1px solid #1877f2;
+background-color: #ffffff;
+}
+
+.log{
+    margin-top: 10px;
+    width: 366px;
+    height: 50px;
+border-radius: 7px;
+color: white;
+background-color: #1877f2;
+border: none;
+font-size: 17px;
+font-weight: bold;
+text-decoration: none;
+}
+.create{
+    width: 190px;
+    height: 50px;
+    background-color: rgb(53, 180, 53);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+hr{
+    width: 366px;
+    border: 0.5px solid rgba(0, 0, 0, 0.068);
+
+}
+.heading{
+    float: left;
+    clear: left;
+    height: 200px;
+    width: 800px;
+    margin-top: -325px;
+   background-color: transparent;
+}
+.heading>h1{
+text-align: left;
+font-size: 55px;
+color: #1877f2;
+margin-left: 300px;
+
+}
+.heading>p{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 300px;
+margin-top: -20px;
+}
+.celebritypage{
+float: right;
+    height: 20px;
+    text-align: center;
+    margin-top: 35px;
+    background: transparent;
+}
+.celebritypage >p{
+    margin-top: -10px;
+}
+
+
+
+
